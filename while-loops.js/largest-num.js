@@ -1,6 +1,6 @@
 // . Finding the Largest Digit in a Number Using While Loop
 
-let num = 2333;
+let num = 2439;
 let i = 0;
 let largerNum = 0;
 

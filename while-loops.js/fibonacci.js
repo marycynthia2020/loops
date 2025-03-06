@@ -10,7 +10,21 @@ while (i < n - 2) {
   fibonacciArray.push(number);
   i++;
 }
-console.log(fibonacciArray, "1");
+console.log(fibonacciArray, "using while loop");
+
+// while loop startin with empty array
+
+// let fibonacciArray = [];
+while (i < n) {
+  if (i < 2) {
+    fibonacciArray.push(i);
+  } else {
+    let number = fibonacciArray[i - 2] + fibonacciArray[i - 1];
+    fibonacciArray.push(number);
+  }
+  i++;
+}
+// console.log(fibonacciArray, "starting with empty array");
 
 // for loop
 // let n = 10;
@@ -20,4 +34,4 @@ console.log(fibonacciArray, "1");
 //   fibonacciArray.push(number);
 // }
 
-// console.log(fibonacciArray, "2");
+// console.log(fibonacciArray, "using or loop");
